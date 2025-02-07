@@ -159,7 +159,7 @@ jobs:
           tar -czf vnt-$TARGET-$GITHUB_SHA.tar.gz *
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: vnt-cli
           path: ./artifacts
